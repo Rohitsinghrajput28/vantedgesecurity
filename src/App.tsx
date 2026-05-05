@@ -6,6 +6,7 @@ import { ServicesGrid } from './components/ServicesGrid';
 import { TrustedCompaniesSection } from './components/TrustedCompaniesSection';
 import { ProcessTimeline } from './components/ProcessTimeline';
 import { BenefitsSection } from './components/BenefitsSection';
+import { SecurityTestingCoverageSection } from './components/SecurityTestingCoverageSection';
 import { TestimonialSection } from './components/TestimonialSection';
 import { FAQSection } from './components/FAQSection';
 import { ArticlesSection } from './components/ArticlesSection';
@@ -32,6 +33,7 @@ function App() {
       <TrustedCompaniesSection />
       <ProcessTimeline />
       <BenefitsSection />
+      <SecurityTestingCoverageSection />
       <TestimonialSection />
       <FAQSection />
       <ArticlesSection />

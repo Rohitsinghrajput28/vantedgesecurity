@@ -9,4 +9,5 @@ export { FAQSection } from './FAQSection';
 export { ArticlesSection } from './ArticlesSection';
 export { TestimonialSection } from './TestimonialSection';
 export { TrustedCompaniesSection } from './TrustedCompaniesSection';
+export { SecurityTestingCoverageSection } from './SecurityTestingCoverageSection';
 export { Footer } from './Footer';
