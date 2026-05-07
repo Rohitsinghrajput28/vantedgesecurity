@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code, Shield, Globe, Server, Cloud, Zap, AlertTriangle, Plug } from 'lucide-react';
+import { Shield, Server, AlertTriangle } from 'lucide-react';
 
 // Animated Web Application Testing
 export const WebAppAnimation = () => {
@@ -339,7 +339,6 @@ export const ThreatAnimation = () => {
 
         {/* Threat circles orbiting */}
         {[0, 1, 2, 3].map((i) => {
-          const angle = (i / 4) * Math.PI * 2;
           return (
             <motion.div
               key={i}
