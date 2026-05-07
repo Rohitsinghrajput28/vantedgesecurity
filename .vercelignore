@@ -1,3 +1,4 @@
+backend
 node_modules
 .git
 .gitignore
@@ -22,8 +23,3 @@ lerna-debug.log*
 .cache
 .parcel-cache
 .eslintcache
-backend/node_modules
-backend/dist
-backend/build
-backend/.env
-backend/.env.local
