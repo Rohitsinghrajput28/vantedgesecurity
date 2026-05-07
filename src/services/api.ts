@@ -1,5 +1,5 @@
-// API URL - configure via .env.local with VITE_API_URL
-const API_BASE_URL = 'http://localhost:5000/api';
+// API URL - configure via .env.local or Vercel environment variables
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
 
 export const apiClient = {
   // Newsletter endpoints
